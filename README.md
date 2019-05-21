@@ -1,2 +1,1 @@
-# getout
-Trip Planning Weather &amp; Events App for Travellers who like to GET OUT!
+### Get Out- https://nicholas-schaefer.github.io/getout (Site) https://github.com/nicholas-schaefer/getout (Repo)

@@ -1,0 +1,14 @@
+body{
+    margin: 0px 15px 0px 15px;
+}
+.floatLeft {
+    float: left;
+  }
+
+.buttonCenter{
+    text-align: center;
+}
+#subtitle{
+    font-style: italic;
+    font-size: 2em
+}

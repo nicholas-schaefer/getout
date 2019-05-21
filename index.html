@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Trying Materialize icons for collapsaible -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+
+    <title>Get Out!</title>
+
+</head>
+
+<body>
+    <h1>Get Out!</h1>
+    <p id="subtitle">Trip Planning App for the Adventurous Traveler</p>
+
+    <div>
+        <p>
+            <label for="dateBeginTrip">Select Arrival Date</label>
+            <input type="text" id="dateBeginTrip" class="datepicker">
+        </p>
+    </div>
+    <div>
+        <p>
+            <label for="interest">Select Departure Date</label>
+            <input type="text" id="dateEndTrip" class="datepicker">
+        </p>
+    </div>
+
+    <div class="input-field">
+        <p>
+            <label for="location">Enter U.S. City You Plan To Visit</label>
+            <input id="location" type="text" class="validate">
+        </p>
+    </div>
+
+    <div class="input-field">
+        <p>
+            <label for="interest">Enter Desired Activity or Entertainment (e.g. "Jogging" or "Dancing")</label>
+            <input id="interest" type="text" class="validate">
+        </p>
+    </div>
+
+    <div>
+        <button id="buttonSearch" class="btn green">Search</button>
+        <label for="buttonSearch">New Searches Appear at Page Bottom</label>
+    </div>
+
+    <div>
+        <button id="buttonRefreshAllSearches" class="btn">Refresh All Searches</button>
+        <label for="buttonRefreshAllSearches">Local Storage Also Saves Searches If You Close/Re-open Browser</label>
+    </div>
+
+    <div>
+        <button id="buttonClearAllSearches" class="btn red">Clear All Searches</button>
+        <label for="buttonClearAllSearches">Clears All Results & Local Storage</label>
+    </div>
+
+    <div id="eventContainer"></div>
+
+    <!-- JQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Linked Javascript File -->
+    <script src="./assets/app.js"></script>
+</body>
+
+</html>
