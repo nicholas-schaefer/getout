@@ -1,6 +1,6 @@
 # Get Out - [Click to View Live App](https://nicholas-schaefer.github.io/getout)
 
-##What is it?
+## What is it?
 
 **Get Out** is a trip planning weather & events app designed for business travelers who want to find fun in unfamiliar cities. 
 
@@ -35,6 +35,7 @@ No Installation necessary. Open app by clicking on url link at the top of this g
 Api's:
 * [Open Weather Map "5 day 3/hour forecast" Api](https://openweathermap.org/forecast5). The Open Weather Map Api allows users to get weather forecasts for multiple cities. **Get Out** utilizes the "5 day 3/hour forecast" API to find weather by city.
 * [Eventbrite Api](https://www.eventbrite.com/platform/api): The Eventbrite API is REST-based, uses OAuth2 for authentication, and always returns responses in JSON. [Eventbrite](https://www.eventbrite.com/): Eventbrite is a global platform for live experiences that allows anyone to create, share, find and attend events that fuel their passions and enrich their lives.  **Get Out** utilizes the user's "desired activity" entry in the eventbrite query search string. Sleek and simple design was chosen over allowing multiple search parameters, with the consequence that a user searching for "running" may see results for "running events." Fortunately returned listings are sorted by relevance and Eventbrites search alogrithim is smart enough to prioritize running(i.e. jogging) events.
+
 CSS Framework:
 * [Materialize](https://materializecss.com/): Materialize is a modern responsive CSS framework based on Material Design by Google. **Get Out** utilizes materialize for both its sleek styling and several of it's built-in features. Both the date picker modals and dynamically generated weather carousels were quick to code and customize.
 
