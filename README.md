@@ -21,11 +21,11 @@ Fortunately, **Get OUT** automatically saves all searches to local storage, whic
 
 ![alt text](/assets/images/user-guide-images/expanded-event.jpg "expanded-event")
 
-##Future Directions
-* 1. Limited activity search:
+## Future Directions
+1. Limited activity search:
 Instead of allowing users to type their desired activity into the search box, it may be better to provide a defined dropdown list of possible activities. This would allow for better integration with Eventbrite, thus ensuring that individuals looking to run and entering "running" don't see results for "running a meeting."
 
-* 2. Suggested deals and monetization with Groupon Api:
+2. Suggested deals and monetization with Groupon Api:
 A more limited desired acitivity search field would also facilitate integration with the Groupon Api. If a user is searching for "running" in Chicago, we can provide them with added value by recommending fitness deals in Chicago during those dates (e.g. a yoga class discount from Groupon). If an individual purchasing that deal is referred from "Get Out", then "Get Out"'s creaters would receive a commision from Groupon.
 
 ## How to Use
@@ -34,7 +34,7 @@ No Installation necessary. Open app by clicking on url link at the top of this g
 ## Tech Stack
 Api's:
 * [Open Weather Map "5 day 3/hour forecast" Api](https://openweathermap.org/forecast5). The Open Weather Map Api allows users to get weather forecasts for multiple cities. **Get Out** utilizes the "5 day 3/hour forecast" API to find weather by city.
-* [Eventbrite Api](https://www.eventbrite.com/platform/api): The Eventbrite API is REST-based, uses OAuth2 for authentication, and always returns responses in JSON. [Eventbrite](https://www.eventbrite.com/); is a global platform for live experiences that allows anyone to create, share, find and attend events that fuel their passions and enrich their lives.  **Get Out** utilizes the user's "desired activity" entry in the eventbrite query search string. Sleek and simple design was chosen over allowing multiple search parameters, with the consequence that a user searching for "running" may see results for "running events." Fortunately returned listings are sorted by relevance and Eventbrites search alogrithim is smart enough to prioritize running(i.e. jogging) events.
+* [Eventbrite Api](https://www.eventbrite.com/platform/api): The Eventbrite API is REST-based, uses OAuth2 for authentication, and always returns responses in JSON. [Eventbrite](https://www.eventbrite.com/): Eventbrite is a global platform for live experiences that allows anyone to create, share, find and attend events that fuel their passions and enrich their lives.  **Get Out** utilizes the user's "desired activity" entry in the eventbrite query search string. Sleek and simple design was chosen over allowing multiple search parameters, with the consequence that a user searching for "running" may see results for "running events." Fortunately returned listings are sorted by relevance and Eventbrites search alogrithim is smart enough to prioritize running(i.e. jogging) events.
 CSS Framework:
 * [Materialize](https://materializecss.com/): Materialize is a modern responsive CSS framework based on Material Design by Google. **Get Out** utilizes materialize for both its sleek styling and several of it's built-in features. Both the date picker modals and dynamically generated weather carousels were quick to code and customize.
 
