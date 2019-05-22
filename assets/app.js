@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var queryURLUserEndDateSubmission;
   var queryURLUserEndDateConverted;
   var queryURLReturnVenue;
-  var queryUrlKey = "&token=QPGAVLFLTPMC2LQJRC3D";
+  var queryUrlKey = "&token=56NL2TKKYLOWEWCPKX2C";
 
   //Counter Variables Ensure Dynamically Created Divs all have different IDs 
   var counterDivs = 0;
@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', function () {
       queryURLReturnVenue +
       queryUrlKey;
 
-    weatherQueryURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + location + "&units=imperial&appid=583736142f8eecdee5b0aa5e37ffcd59";
+    weatherQueryURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + location + "&units=imperial&appid=a21e75dd0163c2310385233b13d2134e";
 
     buttonHtml = "<div class = 'buttonCenter'><button class = 'btn red' data-id = 'buttonClearDiv' data-weatherqueryurl =" + weatherQueryURL + " data-queryurl =" + queryURLComplete + ">Clear Above Search</button><hr></div>";
 
